@@ -59,6 +59,7 @@ def all_keys(hash)
   hash.each do |x|
     puts "#{x}"
 end
+end
 puts hash
 #4. Define a method called `all_data` that takes a hash as an argument.
 #This method should print out each value in the hash.
@@ -66,6 +67,7 @@ puts hash
 def all_data(hash)
   hash.each do |y|
     puts "#{y}"
+end
 end
 puts hash
 
