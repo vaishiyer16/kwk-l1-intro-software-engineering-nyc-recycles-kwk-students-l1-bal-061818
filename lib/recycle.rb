@@ -57,7 +57,7 @@ end
 #You should use the `each_key` method to iterate over your hash and print out each key.
 def all_keys(hash)
   hash.each do |x|
-    puts "#{x}"
+    puts x
 end
 end
 puts hash
@@ -66,7 +66,7 @@ puts hash
 #You should use the `each_value` method to iterate over your hash and print out each value.
 def all_data(hash)
   hash.each do |y|
-    puts "#{y}"
+    puts y
 end
 end
 puts hash
