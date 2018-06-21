@@ -76,8 +76,7 @@ puts hash
 #You should use the `each` method to iterate over your hash to print out that sentence
 def key_and_data(hash)
   hash.each do |x,y|
-    puts "#{x}"
-    puts "#{y}"
+    puts "The #{x} is #{y}"
   end
 end
   puts hash
